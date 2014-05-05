@@ -1,6 +1,6 @@
 function AlexaSiteStatsWidget(){
     var keyStr = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=";
-    var jsUrlRegex = /https:\/\/mulanovich.googlecode.com\/svn\/alexa%20rank%20widget.js.*(?:[\?&]|&amp;)url=([^\?&]*)/i
+    var jsUrlRegex = /http:\/\/xslt.alexa.com\/site_stats\/js\/(.)\/(.).*(?:[\?&]|&amp;)url=([^\?&]*)/i;
     var jsAmznIdRegex = /http:\/\/xslt.alexa.com\/site_stats\/js\/.*[\?&]amzn_id=([^\?&]*)/i;
     var imageSrcPrefix = "http://xsltcache.alexa.com/site_stats/gif/";
     var detailURLPrefix = "http://www.alexa.com/data/details/main";
